@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<!--css file-->
+		<link href="styles.css" rel="stylesheet" type="text/css">
+		
+		<!--font awesome-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		
+		<!--google font-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Freehand">
+		
+	</head>
+	<body>
+		<section id="header">
+			<div id="menu">
+				<!--toggler menu-->
+				<a href="javscript:void(0)" id="toggler-menu" onclick="navshow()"><i class="fa-solid fa-bars"></i></a>
+				
+				<div id="menu-links">
+					<a href="#home">home</a>
+					<a href="#menu">menu</a>
+					<a href="#our_story">our story</a>
+					<a href="#contact_us">contact us</a>
+					<div style="width: 100%;">
+						<i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+						<input type="search" name="search" id="search" style="display: block;margin: auto;">
+					</div>
+				</div>
+			</div>
+			<h2 id="heading1">italian food</h2>
+			<p id="header_para">Lorem ipsum dolor</p>
+			<button type="button" id="readmore"><strong>READ MORE</strong></button>
+			<p id="header_para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et volutpat massa. Vivamus non porta velit, vitae tincidunt orci. Donec</p>
+			<img src="photos/header/image4.png" alt="photo" width="80" id="logo">
+			<img src="photos/header/image1.png" alt="photo" width="200" id="plate">
+			<img src="photos/header/image3.png" alt="photo" width="90" id="plate2">
+			<img src="photos/header/image2.png" alt="photo" width="150" id="leafs">
+		</section>
+		
+		<!--show more section-->
+		<section id="show">
+			<div id="show_container_one">
+				<h1 id="show_head">Lorem ipsum dolor</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+			</div>
+			<div id="show_container_two">
+				<div class="show_container_two_inner">
+					<img src="photos/show/image1.png" alt="photo">
+					<h2><strong>Lorem ipsum</strong></h2>
+					<p>Lorem ipsum dolor sit amet, consectetur ...</p>
+				</div>
+				<div class="show_container_two_inner">
+					<img src="photos/show/image2.png" alt="photo">
+					<h2><strong>Lorem ipsum</strong></h2>
+					<p>Lorem ipsum dolor sit amet, consectetur ...</p>
+				</div>
+				<div class="show_container_two_inner">
+					<img src="photos/show/image3.png" alt="photo">
+					<h2><strong>Lorem ipsum</strong></h2>
+					<p>Lorem ipsum dolor sit amet, consectetur ...</p>
+				</div>
+			</div>
+			<div id="show_container_three">
+				<button type="button">show more</button>
+			</div>
+		</section>
+		
+		<section id="more_info">
+			<h1>Lorem ipsum dolor</h1>
+			<div id="more_info_content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
+			</div>
+			<button type="button">more info</button>
+		</section>
+		
+		<section id="discounts">
+			<div class="discounts_inner">
+				<img src="photos/discounts/image1.png" alt="photo" width="200">
+				<div class="discounts_inner_content">
+					<h1>Discount up to 50% All Excursions</h1>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+					<button type="button">read more</button>
+				</div>
+			</div>
+			<div class="discounts_inner" id="discounts_inner_two">
+				<img src="photos/discounts/image2.png" alt="photo" width="200">
+				<div class="discounts_inner_content">
+					<h1>January’s Promo: Buy 1 Get 1 Free!</h1>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+					<button type="button">read more</button>
+				</div>
+			</div>
+		</section>
+		
+		<!--banner section-->
+		<section id="banner">
+			<img id="banner_leaf" width="360" src="photos/banner/image3.png" alt="photo">
+			<div id="banner_content">
+				<h1>Lorem ipsum dolor sit amet</h1>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+				<div id="line"></div>
+			</div>
+			<img id="banner_piza" src="photos/banner/image1.png" alt="photo" width="300">
+			<img id="banner_piza_cut" src="photos/banner/image2.png" alt="photo" width="150">
+		</section>
+		
+		<!--information-->
+		<section id="info">
+			<div id="info_sub">
+				<div class="info_sub_content">
+					<h2>Lorem ipsum</h2>
+					<p> Porttitor eget dolor morbi non arcu. Bibendum ut tristique et egestas. Placerat in egestas erat imperdiet sed euismod nisi porta lorem.</p>
+				</div>
+				<div class="info_sub_content">
+					<h2>Lorem ipsum</h2>
+					<p> Porttitor eget dolor morbi non arcu. Bibendum ut tristique et egestas. Placerat in egestas erat imperdiet sed euismod nisi porta lorem.</p>
+				</div>
+				<div class="info_sub_content">
+					<h2>Lorem ipsum</h2>
+					<p> Porttitor eget dolor morbi non arcu. Bibendum ut tristique et egestas. Placerat in egestas erat imperdiet sed euismod nisi porta lorem.</p>
+				</div>
+			</div>
+			<p class="info_quote" style="margin-top: 50px;"><b>Quis varius quam quisque id diam. Lobortis scelerisque fermentum dui faucibus in ornare. Nunc lobortis mattis aliquam faucibus purus in massa tempor.</b></p>
+			<br>
+			<p class="info_quote"><b>Lorem ipsum</b></p>
+		</section>
+		
+		<!--subcription-->
+		<section id="subcription">
+			<img id="subcription_leaf" src="photos/subcription/image1.png" alt="photo" width="350">
+			<div id="subcription_content">
+				<h1>Title Here</h1>
+				<p>Porttitor eget dolor morbi non arcu. Bibendum ut tristique et egestas.</p>
+				<div id="subcription_input-field">
+					<form>
+						<input id="sub_email" type="email" name="email" placeholder="your email">
+						<input id="sub_button" type="submit" name="subcribe" value="subcribe">
+					</form>
+				</div>
+			</div>
+		</section>
+		
+		<!--footer-->
+		<section id="footer">
+			<div id="footer_para">
+				<h1>Title Here</h1>
+				<p>To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other. For example, you can add a matching cover page, header, and sidebar</p>
+				<div id="social_links">
+					<a href="#"><i class="fa-brands fa-square-instagram icon"></i></a>
+					<a href="#"><i class="fa-brands fa-square-facebook icon"></i></a>
+					<a href="#"><i class="fa-brands fa-square-twitter icon"></i></a>
+					<a href="#"><i class="fa-brands fa-square-whatsapp icon"></i></a>
+				</div>
+			</div>
+			<div id="footer_links">
+				<div>
+					<h1>About</h1>
+					<ul>
+						<li><a href="#">History</a></li>
+						<li><a href="#">Our Team</a></li>
+						<li><a href="#">Brand Guidlines</a></li>
+						<li><a href="#">Terms&amp;Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+					</ul>
+				</div>
+				<div>
+					<h1>Services</h1>
+					<ul>
+						<li><a href="#">How To Order</a></li>
+						<li><a href="#">Our Product</a></li>
+						<li><a href="#">Order Status</a></li>
+						<li><a href="#">Promo</a></li>
+						<li><a href="#">Payment Method</a></li>
+					</ul>
+				</div>
+				<div>
+					<h1>Other</h1>
+					<ul>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Privacy</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<script>
+			function navshow(){
+				x = document.getElementById("menu-links");
+				if(x.style.display === "block"){
+					x.style.display = "none";
+					document.getElementById("menu").style.backgroundColor = "transparent";
+				}else{
+					x.style.display = "block";
+					document.getElementById("menu").style.backgroundColor = "black";
+				}
+			}
+		</script>
+	</body>
+</html>
